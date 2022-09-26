@@ -13,9 +13,9 @@ import numpy as np
 import lightgbm as lgb
 from sklearn import preprocessing
 import argparse
-# read smiles of molecules
 import time
 
+# read smiles of molecules
 parser = argparse.ArgumentParser(description='Input smi file path')
 parser.add_argument('--smi', default='Put_Prediction_File_Here/outliers.smi', type=str)
 args = parser.parse_args()
